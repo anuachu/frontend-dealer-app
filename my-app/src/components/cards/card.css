@@ -1,0 +1,22 @@
+.card {
+    transition: border 0.3s ease;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .card-container{
+    display: flex;
+    max-width: 1260px;
+    margin:0 auto;
+  }
+
+  
+  @media (max-width: 1024px) {
+    .card-container{
+        display: block;
+    
+    }
+  }
