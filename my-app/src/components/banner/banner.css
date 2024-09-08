@@ -33,12 +33,23 @@
   }
   
   .banner-subtitle {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: white;
     margin-top: 10px;
     width:100%;
     margin:0 auto;
     text-overflow: ellipsis;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .button-banner{
+    font-size:16px;
+    font-weight: bolder;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
 
@@ -56,6 +67,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .banner-subtitle {
+    width:80%;
+  }
+  .banner-content {
+    top: 10%;
+  }
+}
+
 
 
 @media (min-width: 1440px) {
@@ -63,7 +83,7 @@
     height: 45rem !important
   }
   .banner-subtitle {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: white;
     margin-top: 10px;
     width:50%;

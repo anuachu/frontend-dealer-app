@@ -1,11 +1,10 @@
 import React from 'react';
 
 const CardBody = ({ children }) => (
-  <div style={{ 
+  <div className='card-body' style={{ 
     marginBottom: '16px',
     paddingLeft: '16px',
     paddingRight: '16px',
-    minHeight: '100px',
     textAlign: 'left',
     color: 'gray',
   }}>{children}</div>
