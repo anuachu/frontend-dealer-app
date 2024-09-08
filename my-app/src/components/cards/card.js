@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './card.css'; 
 
-// Card Component
 const Card = ({ children, isActive, onClick }) => {
   return (
     <div
@@ -9,7 +8,6 @@ const Card = ({ children, isActive, onClick }) => {
       onClick={onClick}
       style={{
         border: isActive ? '2px solid #007BFF' : '1px solid #ccc',
-        margin: '16px',
         transition: 'box-shadow 0.3s ease, transform 0.3s ease', 
         cursor: 'pointer', 
         borderRadius: '12px', 

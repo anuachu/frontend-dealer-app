@@ -17,7 +17,9 @@ function App() {
     <div className="App">
       <Banner
         title="Welcome to G Automotive"
-        subtitle="Lorem ipsum dolor sit amet. Et fuga perspiciatis quo galisum aliquam eum animi aperiam 33 culpa voluptas. In itaque omnis est blanditiis vero et recusandae neque. Sit atque accusantium rem illo dolor qui culpa reiciendis. Est dolores repudiandae aut quibusdam suscipit qui quae dolor."
+        subtitle="Lorem ipsum dolor sit amet. Et fuga perspiciatis quo galisum aliquam eum animi aperiam 33 culpa voluptas. In itaque omnis est blanditiis vero et recusandae neque. 
+                  Sit atque accusantium rem illo dolor qui culpa reiciendis. Est dolores repudiandae aut quibusdam suscipit qui quae dolor.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
         image={bannerImage}
         altText="Sample Banner"
       />
@@ -31,10 +33,10 @@ function App() {
         <Button
           label="Button 1"
           onClick={() => setActiveCard(1)}
+          className="card-button"
         />
       </Card>
 
-      {/* Card 2 (Middle card with border on load) */}
       <Card isActive={activeCard === 2} onClick={() => setActiveCard(2)}>
         <CardsImage src={cardImage} />
         <CardHeader title="Heading 2" />
@@ -44,10 +46,10 @@ function App() {
         <Button
           label= "Button 2"
           onClick={() => setActiveCard(2)}
+          className="card-button"
         />
       </Card>
 
-      {/* Card 3 with more content */}
       <Card isActive={activeCard === 3} onClick={() => setActiveCard(3)}>
         <CardsImage src={cardImage} />
         <CardHeader title="Heading 3" />
@@ -58,6 +60,7 @@ function App() {
         <Button
           label="Button 3"
           onClick={() => setActiveCard(3)}
+          className="card-button"
         />
       </Card>
       </div>
