@@ -1,4 +1,4 @@
-## :computer: The project is deployed and can be viewed at [GitHub Pages](https://anuachu.github.io/frontend-dealer-app). [Click here] to see my Live Demo!
+## :computer: The project is deployed and can be viewed at [GitHub Pages] [Click here](https://anuachu.github.io/frontend-dealer-app). to see my Live Demo!
 
 - **Responsive Design:** The website is designed to be fully responsive and maintains functionality across all resolutions.
 
