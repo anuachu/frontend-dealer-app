@@ -86,8 +86,14 @@
     font-size: 1rem;
     color: white;
     margin-top: 10px;
-    width:50%;
+    width:40%;
     margin:0 auto;
     text-overflow: ellipsis;
+  }
+}
+
+@media (min-width: 1440px) {
+  .banner-content {
+    top: 30%;
   }
 }

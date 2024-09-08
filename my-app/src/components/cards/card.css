@@ -14,11 +14,14 @@
   display: flex;
   flex-wrap: nowrap; 
   overflow-x: auto; 
-  gap: 16px;
+  gap: 30px;
   max-width: 1260px;
   justify-content: center; 
   margin: 0 auto;
-  padding: 16px;
+  padding-left: 16px;
+  padding-right:16px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .card-body {
@@ -42,6 +45,7 @@
   .card-container {
     justify-content: unset; 
     max-width: 100%; 
+    gap:16px;
   }
   .card {
     min-width: 280px; 
@@ -55,6 +59,7 @@
   .card-container {
     justify-content: unset; 
     max-width: 100%;
+    gap:16px;
   }
   .card-body {
     min-height: 160px; 

@@ -14,7 +14,7 @@ const Banner = ({ title, subtitle, image, altText }) => {
         <h1 className="banner-title">{title}</h1>
         {subtitle && <p className="banner-subtitle">{subtitle}</p>}
         <Button
-          label="Contact-us"
+          label="Contact Us"
           className="button-banner"
         />
       </div>
